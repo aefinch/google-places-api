@@ -48,7 +48,7 @@ $(document).ready(function(){
 	const writeAddressToDom = (address) => {
 		let outputString = `<div>${address}</div>`;
 		$("#addresses").append(outputString);
-	}
+	};
 
 	const writePlaceToDom = (results) => {
 		let placeString = "";
